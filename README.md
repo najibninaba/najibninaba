@@ -1,7 +1,7 @@
 # Hi, I'm Najib
 
 📍 Singapore\
-🏗️ Head of Platforms Engineering @ [AI Singapore](https://aisingapore.org) · Senior Associate Director @ NTU\
+🏗️ Head of Platforms Engineering @ [AI Singapore](https://aisingapore.org)\
 🌳 Creator of [Orchard](https://github.com/kapitan-ai/orchard), sovereign on-prem LLM orchestration
 
 ![Elixir](https://img.shields.io/badge/-Elixir-4B275F?style=flat-square&logo=elixir&logoColor=white)
@@ -13,7 +13,7 @@
 ![Apple Silicon](https://img.shields.io/badge/-Apple_Silicon_·_MLX-000000?style=flat-square&logo=apple&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
-I lead Platforms Engineering at AI Singapore. I joined in 2018 as one of the original four engineers. My team runs the hybrid infrastructure, GPU and HPC capacity, MLOps and data platforms for national AI programmes. Since April 2026, AI Singapore is part of NTU.
+I lead Platforms Engineering at AI Singapore. I joined in 2018 as one of the original four engineers. My team runs the hybrid infrastructure, GPU and HPC capacity, MLOps and data platforms for national AI programmes.
 
 I started around 2000 with Linux HPC clusters in Singapore. Many habits from that work still apply: clear contracts, observable behaviour, and ownership after launch.
 
