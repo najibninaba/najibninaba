@@ -2,7 +2,7 @@
 
 📍 Singapore\
 🏗️ Head of Platforms Engineering @ [AI Singapore](https://aisingapore.org) · Senior Associate Director @ NTU\
-🌳 Building [Orchard](https://github.com/kapitan-ai/orchard), sovereign on-prem LLM orchestration
+🌳 Creator of [Orchard](https://github.com/kapitan-ai/orchard), sovereign on-prem LLM orchestration
 
 ![Elixir](https://img.shields.io/badge/-Elixir-4B275F?style=flat-square&logo=elixir&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -13,33 +13,33 @@
 ![Apple Silicon](https://img.shields.io/badge/-Apple_Silicon_·_MLX-000000?style=flat-square&logo=apple&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
-I lead Platforms Engineering at AI Singapore. I joined in 2018 as one of its original four engineers, and the work covers hybrid infrastructure, GPU and HPC capacity, MLOps and data platforms for national AI programmes. Since April 2026 that work sits at NTU.
+I lead Platforms Engineering at AI Singapore. I joined in 2018 as one of the original four engineers. My team runs the hybrid infrastructure, GPU and HPC capacity, MLOps and data platforms for national AI programmes. Since April 2026, AI Singapore is part of NTU.
 
-I started around 2000 building Linux HPC clusters in Singapore, and the habits from that work still hold: clear contracts, observable behaviour, and ownership after launch. These days I build tools for agent-assisted development, and I still ship the code myself.
+I started around 2000 with Linux HPC clusters in Singapore. Many habits from that work still apply: clear contracts, observable behaviour, and ownership after launch.
 
-My view: AI made software cheap to build, not cheap to own. More software means more systems that someone has to understand, operate, secure and maintain.
+These days I also build tools for agent-assisted development. The main ones are below.
 
 ## What I'm building
 
-- 🌳 **[Orchard](https://github.com/kapitan-ai/orchard)** ![Stars](https://img.shields.io/github/stars/kapitan-ai/orchard?style=flat&color=gold) — Turns a fleet of Apple Silicon Macs into one OpenAI-compatible inference service. Elixir/OTP control plane, deny-by-default model grants per Workspace, request tracing, Postgres as the only infrastructure, and MLX-LM workers. Apache-2.0, pre-release pilot. [Demo video](https://youtu.be/lChCSLT3ra8).
-- 🌦️ **[Cuaca](https://cuaca.bijan.app)** — Singapore neighbourhood weather and haze briefing built only on official data.gov.sg feeds. Two-hour forecasts for all 47 areas, PSI and PM2.5, and a separately labelled US AQI. Installable PWA on Cloudflare Workers.
+- 🌳 **[Orchard](https://github.com/kapitan-ai/orchard)** ![Stars](https://img.shields.io/github/stars/kapitan-ai/orchard?style=flat&color=gold) - You can think of Orchard as an OpenAI-compatible API that runs on a fleet of Apple Silicon Macs you control. It has an Elixir/OTP control plane, deny-by-default model grants for each Workspace, request tracing and MLX-LM workers. Postgres is the only infrastructure it needs. Apache-2.0, pre-release pilot. [Demo video](https://youtu.be/lChCSLT3ra8).
+- 🌦️ **[Cuaca](https://cuaca.bijan.app)** - Weather and haze briefing for Singapore neighbourhoods. It uses only official data.gov.sg feeds: two-hour forecasts for all 47 areas, PSI and PM2.5, and a separate US AQI. It is an installable PWA on Cloudflare Workers.
 
 ## Contributing to
 
-- 🧠 **[RepoPrompt CE](https://github.com/repoprompt/repoprompt-ce)** ![Stars](https://img.shields.io/github/stars/repoprompt/repoprompt-ce?style=flat&color=gold) — Native macOS context-engineering app with an MCP CLI for AI coding agents. Contributor and reviewer: Cursor ACP agent support ([#902](https://github.com/repoprompt/repoprompt-ce/pull/902)), Cursor Effort and Speed controls ([#960](https://github.com/repoprompt/repoprompt-ce/pull/960)), and Codex goals on by default ([#33](https://github.com/repoprompt/repoprompt-ce/pull/33)).
-- 🍺 **[homebrew-repoprompt-ce](https://github.com/repoprompt/homebrew-repoprompt-ce)** — I maintain the Homebrew cask: `brew tap repoprompt/repoprompt-ce && brew install --cask repoprompt-ce`.
+- 🧠 **[RepoPrompt CE](https://github.com/repoprompt/repoprompt-ce)** ![Stars](https://img.shields.io/github/stars/repoprompt/repoprompt-ce?style=flat&color=gold) - Native macOS app for context engineering, with an MCP CLI for AI coding agents. I contribute and review. My merged changes include Cursor ACP agent support ([#902](https://github.com/repoprompt/repoprompt-ce/pull/902)), Cursor Effort and Speed controls ([#960](https://github.com/repoprompt/repoprompt-ce/pull/960)), and Codex goals on by default ([#33](https://github.com/repoprompt/repoprompt-ce/pull/33)).
+- 🍺 **[homebrew-repoprompt-ce](https://github.com/repoprompt/homebrew-repoprompt-ce)** - I maintain the Homebrew cask. Install with `brew tap repoprompt/repoprompt-ce && brew install --cask repoprompt-ce`.
 
 ## Smaller tools
 
-- 🔎 **[pi-exa-search](https://github.com/najibninaba/pi-exa-search)** ![Stars](https://img.shields.io/github/stars/najibninaba/pi-exa-search?style=flat&color=gold) — Exa-powered source discovery and search workflows for the [pi coding agent](https://github.com/badlogic/pi-mono).
-- 📊 **[jobs-sg](https://github.com/najibninaba/jobs-sg)** ![Stars](https://img.shields.io/github/stars/najibninaba/jobs-sg?style=flat&color=gold) — AI exposure across 562 Singapore occupations, adapted from [karpathy/jobs](https://github.com/karpathy/jobs) with MOM wage data and SSOC codes.
-- ✂️ **[sniplette](https://github.com/najibninaba/sniplette)** — Turns a social video link into a small clip that fits in a chat message. Fetch, transcode, compress.
-- 📦 **[bmad-pack-installer](https://github.com/najibninaba/bmad-pack-installer)** ![Stars](https://img.shields.io/github/stars/najibninaba/bmad-pack-installer?style=flat&color=gold) — Installer for BMAD expansion packs, with symlink and manifest handling.
+- 🔎 **[pi-exa-search](https://github.com/najibninaba/pi-exa-search)** ![Stars](https://img.shields.io/github/stars/najibninaba/pi-exa-search?style=flat&color=gold) - Source discovery and search workflows for the [pi coding agent](https://github.com/badlogic/pi-mono), using Exa.
+- 📊 **[jobs-sg](https://github.com/najibninaba/jobs-sg)** ![Stars](https://img.shields.io/github/stars/najibninaba/jobs-sg?style=flat&color=gold) - Shows AI exposure across 562 Singapore occupations. Adapted from [karpathy/jobs](https://github.com/karpathy/jobs), with MOM wage data and SSOC codes.
+- ✂️ **[sniplette](https://github.com/najibninaba/sniplette)** - Gets a video from a social media link and makes a small clip that you can send in a chat app.
+- 📦 **[bmad-pack-installer](https://github.com/najibninaba/bmad-pack-installer)** ![Stars](https://img.shields.io/github/stars/najibninaba/bmad-pack-installer?style=flat&color=gold) - Installs BMAD expansion packs and manages their symlinks and manifests.
 
-## Before agents
+## Earlier work
 
-- **Rocks Clusters (2001–2006)** — Contributed cluster tooling and packaging to NPACI Rocks, including the PVFS and Grid Engine rolls.
-- **Scalable Systems (2003–2006)** — Co-founded an HPC startup that Platform Computing acquired in 2006. I then led engineering in Singapore at Platform Computing and later at Revolution Analytics.
+- 2001 to 2006: I contributed cluster tooling and packages to NPACI Rocks, including the PVFS and Grid Engine rolls.
+- 2003 to 2006: I co-founded Scalable Systems, an HPC startup. Platform Computing acquired it in 2006. After that, I led engineering teams in Singapore at Platform Computing and then at Revolution Analytics.
 
 ## Activity
 
