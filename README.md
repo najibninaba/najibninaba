@@ -15,9 +15,17 @@
 
 I lead Platforms Engineering at AI Singapore. I joined in 2018 as one of the original four engineers. My team runs the hybrid infrastructure, GPU and HPC capacity, MLOps and data platforms for national AI programmes.
 
-I started around 2000 with Linux HPC clusters in Singapore. Many habits from that work still apply: clear contracts, observable behaviour, and ownership after launch.
+I started around 2000 with Linux HPC clusters in Singapore. Those habits still apply: get performance and efficiency while keeping results accurate, scale and automate so infrastructure and tools do the heavy lifting, and use embarrassingly parallel work and map-reduce as default patterns.
 
-These days I also build tools for agent-assisted development. The main ones are below.
+These days I build AI platforms and tools with AI agents, and I run the agents like a cluster. I plan, review and merge in Codex. RepoPrompt gives the agents context. The work fans out to Amp runners on our own hardware (Mac Studio, an H100 VM and W7900 workstations) and to Devin for remote compute. The agents help me spend less time writing code directly and more time guiding the work.
+
+The problems are the same ones we solved on HPC clusters:
+
+- Scheduling: a queue for builds and tests, with one heavy slot per machine.
+- Isolation: a cheap git worktree for each agent, so parallel work stays separate.
+- Accounting: a journal of the protected changes that agents make through MCP.
+
+The main tools I build and contribute to are below.
 
 ## What I'm building
 
