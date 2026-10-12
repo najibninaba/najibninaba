@@ -31,7 +31,6 @@ My view: AI made software cheap to build, not cheap to own. More software means 
 
 ## Smaller tools
 
-- ⌨️ **[omarchy-inline](https://github.com/najibninaba/omarchy-inline)** — Private, local AI inline completion for Omarchy apps and Bash. Fcitx5 module, ble.sh ghost text and Ollama. Text never leaves the machine.
 - 🔎 **[pi-exa-search](https://github.com/najibninaba/pi-exa-search)** ![Stars](https://img.shields.io/github/stars/najibninaba/pi-exa-search?style=flat&color=gold) — Exa-powered source discovery and search workflows for the [pi coding agent](https://github.com/badlogic/pi-mono).
 - 📊 **[jobs-sg](https://github.com/najibninaba/jobs-sg)** ![Stars](https://img.shields.io/github/stars/najibninaba/jobs-sg?style=flat&color=gold) — AI exposure across 562 Singapore occupations, adapted from [karpathy/jobs](https://github.com/karpathy/jobs) with MOM wage data and SSOC codes.
 - ✂️ **[sniplette](https://github.com/najibninaba/sniplette)** — Turns a social video link into a small clip that fits in a chat message. Fetch, transcode, compress.
@@ -41,7 +40,6 @@ My view: AI made software cheap to build, not cheap to own. More software means 
 
 - **Rocks Clusters (2001–2006)** — Contributed cluster tooling and packaging to NPACI Rocks, including the PVFS and Grid Engine rolls.
 - **Scalable Systems (2003–2006)** — Co-founded an HPC startup that Platform Computing acquired in 2006. I then led engineering in Singapore at Platform Computing and later at Revolution Analytics.
-- **NSCC Singapore (2020–2024)** — Scientific Advisor for AI on the Technical Resource Allocation Committee.
 
 ## Activity
 
@@ -50,6 +48,6 @@ My view: AI made software cheap to build, not cheap to own. More software means 
 ## Connect
 
 [![Website](https://img.shields.io/badge/-najibninaba.com-111111?style=flat-square&logo=googlechrome&logoColor=white)](https://najibninaba.com)
-[![LinkedIn](https://img.shields.io/badge/-najibninaba-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/najibninaba/)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYTIuMDYyIDIuMDYyIDAgMSAxIDAtNC4xMjUgMi4wNjIgMi4wNjIgMCAwIDEgMCA0LjEyNXpNNy4xMTkgMjAuNDUySDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8%2BPC9zdmc%2B)](https://www.linkedin.com/in/najibninaba/)
 [![X](https://img.shields.io/badge/-@najibninaba-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/najibninaba)
 [![Talks](https://img.shields.io/badge/-Talks-6E56CF?style=flat-square&logo=googleslides&logoColor=white)](https://talks.bijan.app)
